@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryAction from "../components/PrimaryButton";
 
 import styles from "../styles/LandingPage.module.css";
 
@@ -11,7 +12,7 @@ const LandingPage = ({ history }) => {
                     <h3 className={styles.title}>Verify Your Identity</h3>
                     <h5 className={styles.subtitle}>To continue verifying your identity, click on the button below</h5>
                 </div>
-                <a href="google.com/" className={styles.primaryAction}>Begin Verification</a>
+                <PrimaryAction link="/app/" />
                 <h1 className={styles.brandSmall}>from Zarttech</h1>
             </div>
         </div>

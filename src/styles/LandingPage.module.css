@@ -51,14 +51,6 @@
     margin-bottom: 100px;
     color: rgba(0, 0, 0, .8);
 }
-.primaryAction {
-    cursor: pointer;
-    user-select: none;
-    padding: 15px 50px;
-    border-radius: 5px;
-    color: var(--white);
-    background-color: var(--primary-color);
-}
 .brand {
     font-size: 16px;
     margin-top: 210px;
